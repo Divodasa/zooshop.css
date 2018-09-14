@@ -45,33 +45,28 @@ div.page-bottom {
     font-weight: bold;
 }
 
+.pad{
+    padding: 40px;
+}
+
 .table tr td {
+    padding: 3px;
+}
+
+.table {
     width: 100%;
-    padding: 5px;
+}
+
+.table.table-stripped tr {
+    align-items: center;
 }
 
 .table.table-stripped tr:nth-child(odd) {
-    background-color: #bfbfbf;
+    background-color: #bec6bb;
 }
 
-.table.table-tight tr td {
-    padding: 2px !important;
-}
-
-.table.table-stripped.red-lines tr:nth-child(odd){
-    background-color: #bf5a48;
-}
-
-.table.table-stripped.red-lines tr:hover {
-    background-color: #bf5a48;
-}
-
-.table.table-stripped.green-lines tr:nth-child(odd){
-    background-color: #69bf55;
-}
-
-.table.table-stripped.green-lines tr:hover {
-    background-color: #69bf55;
+.table.table-stripped tr:hover {
+    background-color: #f5c207;
 }
 
 .test-display > div {
