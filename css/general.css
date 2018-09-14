@@ -45,20 +45,12 @@ div.page-bottom {
     font-weight: bold;
 }
 
-.pad{
-    padding: 40px;
-}
-
-.table tr td {
-    padding: 3px;
-}
-
 .table {
     width: 100%;
 }
 
-.table.table-stripped tr {
-    align-items: center;
+.table tr td {
+    padding: 3px;
 }
 
 .table.table-stripped tr:nth-child(odd) {
@@ -69,12 +61,6 @@ div.page-bottom {
     background-color: #f5c207;
 }
 
-.test-display > div {
-    border: 2px solid red;
-    margin-top: 20px;
-    padding: 10px;
-    width: 200px;
-
-    display: inline-block;
-
+#ta {
+    margin: 10px 70px
 }

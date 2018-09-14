@@ -16,3 +16,35 @@ div.mainpage-header > h1 {
     font-weight: bolder;
     margin: 43.5%;
 }
+
+.main {
+    text-align: center;
+    font-style: italic;
+}
+
+.h {
+    text-align: center;
+    text-decoration: black underline;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 35px;
+}
+
+.zen {
+    font-style: normal;
+    text-align: center;
+}
+
+.catt {
+    width: 450px;
+    height: 300px;
+}
+
+.cra {
+    text-align: center;
+    padding: 20px;
+}
