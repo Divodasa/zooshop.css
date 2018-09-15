@@ -29,8 +29,6 @@ div.mainpage-header > h1 {
 
 .about {
     font-size: 18px;
-    font-weight: bolder;
-    font-style: italic;
     margin: 35px;
 }
 
@@ -47,4 +45,8 @@ div.mainpage-header > h1 {
 .cra {
     text-align: center;
     padding: 20px;
+}
+
+a.hr {
+    color: #ffa618;
 }
