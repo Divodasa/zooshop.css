@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница заказа</title>
+
+    <link rel="stylesheet" href="../css/mkorder.css">
+
+</head>
+<body>
+
+<div class="content">
+    <div>
+        <div class="page-header orderpage-header">
+        </div>
+        <div class="menu">
+            <a href="index.html"> На главную </a>|
+            <a href="mkorder.html"> Страница заказа </a>|
+        </div>
+        <div class="page-content">
+            <div class="order">
+                <form>
+
+                    <h2>Оформить заказ</h2>
+
+                    <input type="text" size="20" required name="firstname" placeholder="Ваше имя"/><i>*</i><br/><br/>
+
+                    <input type="email" size="20" required name="email" placeholder="Введите email"/><i>*</i><br/><br/>
+
+                    <input type="tel" size="20" required name="tel" placeholder="Номер телефона + 7 (978)"/><i>*</i><br/><br/>
+
+                    <textarea rows="6" required
+                              placeholder="Ваш адрес: индекс, страна, область/край, улица, дом."></textarea><i>*</i><br/>
+
+                    <strong>Выберите товар</strong><br/>
+
+                    <select name="select size=8" required multiple>
+                        <option selected value="s1">Кошачий корм</option>
+                        <option value="s2">Собачий корм</option>
+                        <option value="s3">Львиный корм</option>
+                        <option value="s4">Дом для кота</option>
+                        <option value="s5">Декоративная кость</option>
+                        <option value="s6">Ошейник</option>
+                    </select><i>*</i><br/><br/>
+
+                    <input type="number" size="20" required name="number" placeholder="Количество, шт."/><i>*</i><br/><br/>
+
+                    <textarea rows="6" required
+                              placeholder="Примечание"></textarea><i>*</i><br/><br/>
+
+                    <input type="submit" value="Отправить"/><br/> <br/>
+                    <input type="reset" value="Очистить"/><br/>
+                </form>
+            </div>
+        </div>
+        <div class="page-bottom">
+            2018 © Зоомагазин
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

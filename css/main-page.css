@@ -50,3 +50,12 @@ div.mainpage-header > h1 {
 a.hr {
     color: #ffa618;
 }
+
+a {
+    color: #0b06e2;
+}
+
+.if {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #9C8968;
+}
