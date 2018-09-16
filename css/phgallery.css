@@ -1,3 +1,9 @@
+div.phpage-header {
+    background: url("../image-blog/correct.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 body {
     background: url("../images/bcgr.jpg");
     font-size: 12pt;
@@ -10,17 +16,14 @@ div.page-header {
     height: 125px;
     padding-top: 75px;
     text-align: center;
-    background-attachment: fixed;
 }
 
 div.page-header > h1 {
-    margin: -70px;
-    padding-left: 44px;
+    margin: 0;
 }
 
 div.menu {
-    font-size: larger;
-    padding: 8px;
+    padding: 10px;
     border-bottom: 2px solid #9C8968;
     text-align: center;
 }
@@ -29,40 +32,31 @@ div.content > div {
     width: 900px; min-height: 500px;
     margin: 0 auto; padding: 0;
     border-radius: 0 0 5px 5px;
-    box-shadow: 0 0 15px #5c5c5c;
+    box-shadow: 0 0 15px #858585;
     background-color: #e7e7e7;
 }
 
 div.page-content {
     padding: 20px;
-    border-bottom: 2px solid #9C8968;
 }
 
 div.page-bottom {
-    color: #fcfffa;
-    height: 121px;
+    height: 50px;
     padding-top: 20px;
-    background-color: #5c5c5c;
+    background-color: #9C8968;
     text-align: center;
     font-weight: bold;
 }
 
-.table {
-    width: 100%;
+img {
+    width: 420px;
+    height: 310px;
 }
 
-.table tr td {
-    padding: 3px;
+.pho {
+    text-align: center;
 }
 
-.table.table-stripped tr:nth-child(odd) {
-    background-color: #bec6bb;
-}
-
-.table.table-stripped tr:hover {
-    background-color: #f5c207;
-}
-
-#ta {
-    margin: 10px 70px
+a {
+    color: #0b06e2;
 }

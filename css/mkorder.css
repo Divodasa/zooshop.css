@@ -5,7 +5,7 @@ div.orderpage-header {
 }
 
 body {
-    background-color: #d7d7d7;
+    background: url("../images/bcgr.jpg");
     font-size: 12pt;
     font-family: Tahoma, serif;
     color: #000618;
@@ -24,6 +24,7 @@ div.page-header > h1 {
 div.menu {
     padding: 10px;
     border-bottom: 2px solid #9C8968;
+    text-align: center;
 }
 
 div.content > div {
