@@ -5,7 +5,7 @@ div.orderpage-header {
 }
 
 body {
-    background: url("../images/bcgr.jpg");
+    background: url("../images/background.jpg");
     font-size: 12pt;
     font-family: Tahoma, serif;
     color: #000618;
@@ -31,12 +31,12 @@ div.content > div {
     width: 604px; min-height: 400px;
     margin: 0 auto; padding: 0;
     border-radius: 0 0 5px 5px;
-    box-shadow: 0 0 15px #858585;
+    box-shadow: 0 0 45px #4b4b4b;
     background-color: #e7e7e7;
 }
 
 div.page-content {
-    padding: 20px;
+    padding: 10px;
 }
 
 div.page-bottom {
