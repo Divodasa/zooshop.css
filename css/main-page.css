@@ -58,35 +58,70 @@ a {
 
 .if {
     padding-bottom: 30px;
-    border-bottom: 2px solid #9C8968;
+    border: 2px solid #9C8968;
 }
 
 #block1 {
     float: left;
     display: block;
-    width: 440px;
+    width: 402px;
     height: 300px;
-    margin: 4px;
+    margin: 22px;
+    box-shadow: 0 0 45px #4c4c4c;
 }
 
 #block2 {
     float: right;
     display: block;
-    width: 440px;
+    width: 402px;
     height: 300px;
-    margin: 4px;
+    margin: 22px;
+    box-shadow: 0 0 45px #4c4c4c;
+}
+
+#block3 {
+    float: left;
+    display: block;
+    width: 402px;
+    height: 360px;
+    margin: 22px;
+    text-align: center;
+    box-shadow: 0 0 45px #4c4c4c;
+}
+
+#block4 {
+    text-align: center;
+    float: right;
+    display: block;
+    width: 402px;
+    height: 340px;
+    margin: 22px;
+    padding-top: 20px;
+    box-shadow: 0 0 45px #4c4c4c;
 }
 
 h2 {
     margin: 5px;
 }
 
-.fat {
-    text-align: center;
-    border-bottom: 2px solid #9C8968;
-    padding: 20px;
+.fcat {
+    padding-top: 0px;
 }
 
-.fcat {
-    padding-top: 20px;
+.wee {
+    text-align: center;
+    width: 330px;
+    height: 330px;
+}
+
+.di {
+    height: 830px;
+    border-bottom: 2px solid #9C8968;
+
+}
+
+.fr {
+    width: 340px;
+    height: 200px;
+    margin-top: 20px;
 }
