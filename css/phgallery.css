@@ -5,7 +5,7 @@ div.phpage-header {
 }
 
 body {
-    background: url("../images/background.jpg");
+    background: url("../images/background.jpg") fixed;
     font-size: 12pt;
     font-family: Tahoma, serif;
     color: #000618;

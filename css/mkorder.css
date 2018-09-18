@@ -5,7 +5,7 @@ div.orderpage-header {
 }
 
 body {
-    background: url("../images/background.jpg");
+    background: url("../images/background.jpg") fixed;
     font-size: 12pt;
     font-family: Tahoma, serif;
     color: #000618;
@@ -57,4 +57,8 @@ i {
 
 a {
     color: #0b06e2;
+}
+
+input, textarea {
+    text-align: center;
 }
