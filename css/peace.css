@@ -1,5 +1,5 @@
 div.pcpage-header {
-    background: url("../image-blog/cat-dog.png");
+    background: url("../image-blog/new.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -23,7 +23,8 @@ div.page-header > h1 {
 }
 
 div.menu {
-    padding: 10px;
+    font-size: larger;
+    padding: 8px;
     border-bottom: 2px solid #9C8968;
     text-align: center;
 }

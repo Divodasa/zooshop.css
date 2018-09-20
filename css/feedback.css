@@ -1,5 +1,5 @@
 div.fepage-header {
-    background: url("../image-blog/feed.png");
+    background: url("../image-blog/message2.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -23,13 +23,14 @@ div.page-header > h1 {
 }
 
 div.menu {
-    padding: 10px;
+    font-size: larger;
+    padding: 8px;
     border-bottom: 2px solid #9C8968;
     text-align: center;
 }
 
 div.content > div {
-    width: 604px; min-height: 500px;
+    width: 900px; min-height: 500px;
     margin: 0 auto; padding: 0;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 0 45px #616161;
