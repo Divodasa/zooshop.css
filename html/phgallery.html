@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/phgallery.css">
 
     <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
 
 </head>
 <body>
@@ -21,12 +22,15 @@
             </h1>
         </div>
         <div class="menu">
-            <a href="../index.html"> Главная </a>|
+            <script type="text/javascript">
+                document.write(callMenuHref());
+            </script>
+            <!--<a href="../index.html"> Главная </a>|
             <a href="mkorder.html"> Страница заказа </a>|
             <a href="phgallery.html"> Фотогалерея </a>|
             <a href="peace.html"> Кот в ананде </a>|
             <a href="feedback1.html"> Обратная связь </a>|
-            <a href="contactus.html"> Контакты </a>
+            <a href="contactus.html"> Контакты </a>-->
         </div>
         <div class="page-content mainpage-content">
             <h1 class="pho">Наши животные:)</h1>
