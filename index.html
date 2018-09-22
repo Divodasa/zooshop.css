@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main-page.css">
 
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 
 </head>
 <body>
@@ -22,12 +23,15 @@
             </h1>
         </div>
         <div class="menu">
-            <a href="index.html"> Главная </a>|
+            <script type="text/javascript">
+                document.write(callMenuHref());
+            </script>
+            <!--<a href="index.html"> Главная </a>|
             <a href="html/mkorder.html"> Страница заказа </a>|
             <a href="html/phgallery.html"> Фотогалерея </a>|
             <a href="html/peace.html"> Кот в ананде </a>|
             <a href="html/feedback1.html"> Обратная связь </a>|
-            <a href="html/contactus.html"> Контакты </a>
+            <a href="html/contactus.html"> Контакты </a>-->
         </div>
 
         <div class="page-content mainpage-content">
