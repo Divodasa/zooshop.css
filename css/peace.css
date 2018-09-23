@@ -12,14 +12,17 @@ body {
     margin: 0; padding: 0;
 }
 
+div.pcpage-header > h1 {
+    font-size: 2.2em;
+    color: #fcfffa;
+    text-shadow: 0 0 5px #000000;
+    margin: 0;
+}
+
 div.page-header {
     height: 125px;
     padding-top: 75px;
     text-align: center;
-}
-
-div.page-header > h1 {
-    margin: 0;
 }
 
 div.menu {

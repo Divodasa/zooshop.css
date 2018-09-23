@@ -6,7 +6,7 @@ const siteNames = {
     "mkorder":"Страница заказа",
     "feedback1":"Обратная связь",
     "contactus":"Контакты",
-    "peace":"Релакс",
+    "peace":"Релаксация",
     "phgallery":"Фотогалерея",
     "default":"Zooshop"
 };
