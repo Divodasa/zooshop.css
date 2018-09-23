@@ -1,5 +1,5 @@
 const siteNames = {
-    "index":"Интернет Зоомагазин",
+    "index":"ferry",
     "mkorder":"order",
     "feedback1":"feed",
     "contactus":"connection",
