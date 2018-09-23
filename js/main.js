@@ -1,11 +1,14 @@
 const siteNames = {
-    "index":"ferry",
-    "mkorder":"order",
-    "feedback1":"feed",
-    "contactus":"connection",
-    "peace":"shanti",
-    "phgallery":"photos",
-    "default":"zoshop"
+    "index":`Интернет&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Зоомагазин`,
+    "mkorder":"Страница заказа",
+    "feedback1":"Обратная связь",
+    "contactus":"Контакты",
+    "peace":"Релакс",
+    "phgallery":"Фотогалерея",
+    "default":"Zooshop"
 };
 
 function getSiteName() {
