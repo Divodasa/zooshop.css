@@ -131,6 +131,7 @@ h2 {
     color: #0b06e2;
     font-weight: bolder;
     margin-top: -6px;
+    margin-right: 5px;
     padding: 5px;
     width: 48%;
     display: inline-block;
@@ -138,4 +139,12 @@ h2 {
 
 .logIn {
     text-align: end;
+}
+
+.im {
+    margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: -8px;
+    width: 27px;
+    height: 27px;
 }
