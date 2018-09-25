@@ -23,3 +23,33 @@ function getSiteName() {
     }
     return siteName;
 }
+
+const modalWindow = {
+    BLUR_CLASS: "blur",
+    modal: '',
+
+    init: (openButton) => {
+        modalWindow.modal = $(".modal");
+        modalWindow.initOpenListener(openButton);
+        modalWindow.initCloseListener();
+    },
+
+    initOpenListener: (openButton) => {
+        openButton.click(() => {
+            modalWindow.modal.fadeIn(500);
+            $("div.content").addClass(modalWindow.BLUR_CLASS)
+        });
+    },
+
+    initCloseListener: () => {
+       $(".modal span").click(() =>{
+           modalWindow.modal.fadeOut(600);
+           $("div.content").removeClass(modalWindow.BLUR_CLASS)
+           });
+
+    }
+};
+
+$(document).ready(() => {
+    modalWindow.init($(".login-button"))
+    });

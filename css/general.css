@@ -6,6 +6,15 @@ body {
     margin: 0; padding: 0;
 }
 
+div.content {
+    transition: .3s;
+}
+
+div.content.blur {
+    filter: blur(5px);
+    transition: .5s;
+}
+
 div.page-header {
     height: 125px;
     padding-top: 75px;
@@ -69,7 +78,8 @@ div.page-bottom {
 }
 
 .modal {
-    position: fixed;
+    display: none;
+    position: fixed; z-index: 1;
     top: 50%; left: 50%;
     width: 210px; height: 250px;
     margin-left: -110px; margin-top: -200px;
@@ -108,6 +118,26 @@ div.page-bottom {
 input.btn {
     padding: 5px;
     border: 1px solid #efefef; border-radius: 3px;
-    font-weight: 500;
+    font-weight: bolder;
     cursor: pointer;
+    transition: .4s;
+}
+
+input.btn.btn-default {
+    color: #373737;
+}
+
+input.btn.btn-primary {
+    color: #f0f0f0;
+    background-color: #1c61ff;
+}
+
+input.btn.btn-default:hover {
+    background-color: #a2a2a2;
+    transition: .3s;
+}
+
+input.btn.btn-primary:hover {
+    background-color: #15b3ec;
+    transition: .3s;
 }
