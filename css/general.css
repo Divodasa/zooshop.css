@@ -141,3 +141,68 @@ input.btn.btn-primary:hover {
     background-color: #15b3ec;
     transition: .3s;
 }
+
+.modal1 {
+    display: none;
+    position: fixed; z-index: 1;
+    top: 50%; left: 50%;
+    width: 210px; height: 250px;
+    margin-left: -110px; margin-top: -200px;
+    padding: 10px; border-radius: 10px;
+    box-shadow: 0 0 77px #5d5d5d;
+    background: rgba(255,255,255,0.95);
+}
+
+.modal1 div:first-child {
+    text-align: center;
+}
+
+.modal1 span {
+    font-family: Verdana, SansSerif;
+    position: absolute;
+    top: 2px; right: 7px;
+    color: #0b06e2;
+    cursor: pointer;
+}
+
+.modal1 div.m_body form input[type="text"],
+.modal1 div.m_body form input[type="password"] {
+    padding: 5px;
+    margin-top: 9px;
+    width: 94%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #d2d2d2;
+}
+
+.modal1 div.m_body form input[type="text"]:focus,
+.modal1 div.m_body form input[type="password"]:focus {
+    box-shadow: 0 0 6px #8bcdff;
+}
+
+input.btn {
+    padding: 5px;
+    border: 1px solid #efefef; border-radius: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .4s;
+}
+
+input.btn.btn-default {
+    color: #373737;
+}
+
+input.btn.btn-primary {
+    color: #f0f0f0;
+    background-color: #1c61ff;
+}
+
+input.btn.btn-default:hover {
+    background-color: #a2a2a2;
+    transition: .3s;
+}
+
+input.btn.btn-primary:hover {
+    background-color: #15b3ec;
+    transition: .3s;
+}

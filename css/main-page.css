@@ -125,3 +125,17 @@ h2 {
     height: 200px;
     margin-top: 20px;
 }
+
+.registr1 div {
+    font-size: larger;
+    color: #0b06e2;
+    font-weight: bolder;
+    margin-top: -6px;
+    padding: 5px;
+    width: 48%;
+    display: inline-block;
+}
+
+.logIn {
+    text-align: end;
+}

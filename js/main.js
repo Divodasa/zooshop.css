@@ -52,4 +52,34 @@ const modalWindow = {
 
 $(document).ready(() => {
     modalWindow.init($(".login-button"))
-    });
+    })
+
+const modalWindow1 = {
+    BLUR_CLASS: "blur",
+    modal1: '',
+
+    init: (openButton) => {
+        modalWindow1.modal1 = $(".modal1");
+        modalWindow1.initOpenListener(openButton);
+        modalWindow1.initCloseListener();
+    },
+
+    initOpenListener: (openButton) => {
+        openButton.click(() => {
+            modalWindow1.modal1.fadeIn(500);
+            $("div.content").addClass(modalWindow1.BLUR_CLASS)
+        });
+    },
+
+    initCloseListener: () => {
+        $(".modal1 span").click(() =>{
+            modalWindow1.modal1.fadeOut(600);
+            $("div.content").removeClass(modalWindow1.BLUR_CLASS)
+        });
+
+    }
+};
+
+$(document).ready(() => {
+    modalWindow1.init($(".registr-button"))
+});
