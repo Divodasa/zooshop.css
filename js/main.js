@@ -52,7 +52,7 @@ const modalWindow = {
 
 $(document).ready(() => {
     modalWindow.init($(".login-button"))
-    })
+    });
 
 const modalWindow1 = {
     BLUR_CLASS: "blur",
